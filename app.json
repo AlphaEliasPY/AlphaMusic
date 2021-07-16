@@ -1,14 +1,14 @@
 {
   "name": "AlphaMusic",
   "description": "A Telegram bot to download music from Deezer",
-  "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+  "logo": "https://telegra.ph/file/1146bd0bc92e6549ab880.jpg",
   "keywords": [
     "telegram",
     "deezer"
   ],
-  "repository": "https://github.com/breakdowns/AlphaMusic",
-  "success_url": "https://github.com/breakdowns/AlphaMusic",
-  "website": "https://github.com/breakdowns/AlphaMusic",
+  "repository": "https://github.com/AlphaEliasPY/AlphaMusic",
+  "success_url": "https://github.com/AlphaEliasPY/AlphaMusic",
+  "website": "https://github.com/AlphaEliasPY/AlphaMusic",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
