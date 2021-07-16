@@ -4,7 +4,7 @@ BOT_NAME = "@AlphaMusic_bot"
 DONATE = "https://paypal.me/AlphaElias"
 WELCOME_MSG = (
     f"🎶🎵 Bienvenido a {BOT_NAME} 🎵🎶\n\n"
-    "Haga clic en /help para obtener más información.
+    "Haga clic en /help para obtener más información."
      "Especial Agradecimiento a DeeGram."
 )
 INFO_MSG = (
