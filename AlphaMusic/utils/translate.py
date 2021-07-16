@@ -1,4 +1,4 @@
-VERSION = "0.2.4"
+VERSION = "1.0.0"
 CREATOR = "@AlphaElias"
 BOT_NAME = "@AlphaMusic_bot"
 DONATE = "https://paypal.me/AlphaElias"
