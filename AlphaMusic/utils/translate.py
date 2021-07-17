@@ -1,12 +1,11 @@
-VERSION = "1.0.0"
+VERSION = "0.2.4"
 CREATOR = "@AlphaElias"
-BOT_NAME = "@DowMusica_Bot"
+BOT_NAME = "@AlphaMusic_bot"
 DONATE = "https://paypal.me/AlphaElias"
 WELCOME_MSG = (
     f"🎶🎵 Bienvenido a {BOT_NAME} 🎵🎶\n\n"
     "Haga clic en /help para obtener más información."
-    "**Agradecimientos Especiales a DeeGram**"
-   
+    "Especial Agradecimiento a DeeGram."
 )
 INFO_MSG = (
     f"👤 Creador: {CREATOR}\n"
