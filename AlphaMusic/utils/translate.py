@@ -1,6 +1,6 @@
 VERSION = "0.2.4"
 CREATOR = "@AlphaElias"
-BOT_NAME = "@AlphaMusic_bot"
+BOT_NAME = "@DowMusica_Bot"
 DONATE = "https://paypal.me/AlphaElias"
 WELCOME_MSG = (
     f"🎶🎵 Bienvenido a {BOT_NAME} 🎵🎶\n\n"
