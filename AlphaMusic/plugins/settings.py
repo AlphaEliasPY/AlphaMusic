@@ -37,19 +37,19 @@ async def settings_quality(event: CallbackQuery.Event):
     d = "MP3 128"
     s = " ✅"
 
-    if q == "MP3_320":
+    if q == "FLAC":
         a += s
-    elif q == "MP3_256":
+    elif q == "MP3 320":
         b += s
-    elif q == "MP3_128":
+    elif q == "MP3 256":
         c += s
-    elif q == "FLAC":
+    elif q == "MP3 128":
         d += s
 
     await event.edit(
         "Seleccionar la calidad de la canción: ",
         buttons=[
-            [Button.inline(a, data="FLAC"), Button.inline(b, data="MP3_320")],
+            [Button.inline(a, data="MP3_320"), Button.inline(b, data="FLAC")],
             [Button.inline(c, data="MP3_256"),
              Button.inline(d, data="MP3_128")],
             [Button.inline("◀️"), Button.inline("❌")],
@@ -57,7 +57,7 @@ async def settings_quality(event: CallbackQuery.Event):
     )
 
 
-@bot.on(CallbackQuery(pattern=r"(FLAC|MP3_\d{3})"))
+@bot.on(CallbackQuery(pattern=r"(MP3_320|MP3_\d{3})"))
 async def callback(event: CallbackQuery.Event):
     q = event.data.decode("utf-8")
     if users[event.query.user_id]["quality"] != q:
