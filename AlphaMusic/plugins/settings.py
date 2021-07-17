@@ -37,13 +37,13 @@ async def settings_quality(event: CallbackQuery.Event):
     d = "FLAC"
     s = " ✅"
 
-    if q == "FLAC":
+    if q == "MP3 320":
         a += s
-    elif q == "MP3 320":
-        b += s
     elif q == "MP3 256":
-        c += s
+        b += s
     elif q == "MP3 128":
+        c += s
+    elif q == "FLAC":
         d += s
 
     await event.edit(
